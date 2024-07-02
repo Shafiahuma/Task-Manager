@@ -33,10 +33,10 @@ To run the app, follow these steps:
 1. Download the repository.
 2. After downloading, you have to make a change to make the database work.
    - Add your .env file in the backend folder according to your own machine's postgreSQL's credentials.
-   - .env file example ```DB_USER=A \n
-        DB_HOST=localhost \n
-        DB_DATABASE=task_manager \n
-        DB_PASSWORD=B \n
+   - .env file example ```DB_USER=A
+        DB_HOST=localhost 
+        DB_DATABASE=task_manager
+        DB_PASSWORD=B
         DB_PORT=5432```
 
    - Create a database using the followiong commands:
