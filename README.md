@@ -53,9 +53,9 @@ To run the app, follow these steps:
 ## API Endpoints
 ### Task Management API
 
-- GET /tasks
-  Description: Retrieve a list of tasks.
-  Response: JSON array of tasks.
+#### GET /tasks
+- Description: Retrieve a list of tasks.
+- Response: JSON array of tasks.
 
 - GET /tasks:id
   Description: Retrieve a specific task by ID.
@@ -68,10 +68,10 @@ To run the app, follow these steps:
   Response: JSON object of the created task.
 
 - PUT /tasks:id
-  -- Description: Update an existing task by ID.
-  -- Parameters: id - The ID of the task.
-  -- Request Body: JSON object with title, description, and completed fields.
-  -- Response: JSON object of the updated task.
+  Description: Update an existing task by ID.
+  Parameters: id - The ID of the task.
+  Request Body: JSON object with title, description, and completed fields.
+  Response: JSON object of the updated task.
   
 - DELETE /tasks:id
   Description: Delete a task by ID.
