@@ -55,6 +55,7 @@ To run the app, follow these steps:
    - ```npm init -y```
    - ```npm install express pg cors body-parser```
    - ```node index.js```
+<img width="1680" alt="Screenshot 2024-07-02 at 9 30 08 PM" src="https://github.com/Shafiahuma/Task-Manager/assets/50522609/846aa16b-dbc2-4aad-a766-ae9f07d7098c">
 
 ## API Endpoints
 ### Brief documentation of API endpoints
