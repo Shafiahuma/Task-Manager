@@ -32,7 +32,13 @@ To run the app, follow these steps:
 
 1. Download the repository.
 2. After downloading, you have to make a change to make the database work.
-   - In that index.js file, replace the "user, password, host, port, database" according to your own machine's postgreSQL's credentials.
+   - Add your .env file in the backend folder according to your own machine's postgreSQL's credentials.
+   - .env file example ```DB_USER=A
+        DB_HOST=localhost
+        DB_DATABASE=task_manager
+        DB_PASSWORD=B
+        DB_PORT=5432```
+
    - Create a database using the followiong commands:
    - ```CREATE DATABASE task_manager```
    - ```CREATE TABLE tasks ( id SERIAL PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, status BOOLEAN NOT NULL DEFAULT false);```
