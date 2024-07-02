@@ -68,10 +68,10 @@ To run the app, follow these steps:
   Response: JSON object of the created task.
 
 - PUT /tasks:id
-  Description: Update an existing task by ID.
-  Parameters: id - The ID of the task.
-  Request Body: JSON object with title, description, and completed fields.
-  Response: JSON object of the updated task.
+  -- Description: Update an existing task by ID.
+  -- Parameters: id - The ID of the task.
+  -- Request Body: JSON object with title, description, and completed fields.
+  -- Response: JSON object of the updated task.
   
 - DELETE /tasks:id
   Description: Delete a task by ID.
