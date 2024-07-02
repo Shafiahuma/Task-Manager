@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const { Pool } = require('pg');
+require('dotenv').config();
 
 const app = express();
 const port = 3001;
@@ -10,11 +11,11 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const pool = new Pool({
-    user: 'huma',
-    host: 'localhost',
-    database: 'task_manager',
-    password: 'postgres',
-    port: 5432,
+    user: process.env.DB_USER,
+    host: process.env.DB_HOST,
+    database: process.env.DB_DATABASE,
+    password: process.env.DB_PASSWORD,
+    port: process.env.DB_PORT,
 });
 
 // API endpoints
@@ -33,7 +34,7 @@ app.get('/tasks', async (req, res) => {
 // Get task by ID
 app.get('/tasks/:id', async (req, res) => {
   try {
-    const { id } = req.params; //extract task id from request parameters
+    const { id } = req.params;
     const result = await pool.query('SELECT * FROM tasks WHERE id = $1', [id]);
     if (result.rows.length === 0) {
       return res.status(404).send('Task not found');
