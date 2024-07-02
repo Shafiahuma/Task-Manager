@@ -40,8 +40,10 @@ To run the app, follow these steps:
 4. To run the "frontend" side, in the terminal, run these: 
    - ```cd frontend```
    - ```npm install```
-   - ```npm start```
+   - ```npm install bootstrap```
+   - ```npm install axios```
    - ```npm install react-bootstrap bootstrap```
+   - ```npm start```
 5. To run the "server" side:
    - ```cd backend```
    - ```npm init -y```
