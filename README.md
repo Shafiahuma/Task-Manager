@@ -53,29 +53,29 @@ To run the app, follow these steps:
 ## API Endpoints
 ### Task Management API
 
-#### GET /tasks
-- Description: Retrieve a list of tasks.
-- Response: JSON array of tasks.
+1. GET /tasks
+   - Description: Retrieve a list of tasks.
+   - Response: JSON array of tasks.
 
-- GET /tasks:id
-  Description: Retrieve a specific task by ID.
-  Parameters: id - The ID of the task.
-  Response: JSON object of the task.
+2. GET /tasks:id
+   - Description: Retrieve a specific task by ID.
+   - Parameters: id - The ID of the task.
+   - Response: JSON object of the task.
 
-- POST /tasks
-  Description: Create a new task.
-  Request Body: JSON object with title, description and status fields.
-  Response: JSON object of the created task.
+3. POST /tasks
+  - Description: Create a new task.
+  - Request Body: JSON object with title, description and status fields.
+  - Response: JSON object of the created task.
 
-- PUT /tasks:id
-  Description: Update an existing task by ID.
-  Parameters: id - The ID of the task.
-  Request Body: JSON object with title, description, and completed fields.
-  Response: JSON object of the updated task.
+4. PUT /tasks:id
+  - Description: Update an existing task by ID.
+  - Parameters: id - The ID of the task.
+  - Request Body: JSON object with title, description, and completed fields.
+  - Response: JSON object of the updated task.
   
-- DELETE /tasks:id
-  Description: Delete a task by ID.
-  Parameters: id - The ID of the task.
-  Response: JSON object of the deleted task.
+5. DELETE /tasks:id
+  - Description: Delete a task by ID.
+  - Parameters: id - The ID of the task.
+  - Response: JSON object of the deleted task.
 
 All the API endpoints are evaluated using postman software before using it in frontend.
