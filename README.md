@@ -51,7 +51,7 @@ To run the app, follow these steps:
    - ```node index.js```
 
 ## API Endpoints
-### Task Management API
+### Brief documentation of API endpoints
 
 1. GET /tasks
    - Description: Retrieve a list of tasks.
@@ -63,19 +63,19 @@ To run the app, follow these steps:
    - Response: JSON object of the task.
 
 3. POST /tasks
-  - Description: Create a new task.
-  - Request Body: JSON object with title, description and status fields.
-  - Response: JSON object of the created task.
+   - Description: Create a new task.
+   - Request Body: JSON object with title, description and status fields.
+   - Response: JSON object of the created task.
 
 4. PUT /tasks:id
-  - Description: Update an existing task by ID.
-  - Parameters: id - The ID of the task.
-  - Request Body: JSON object with title, description, and completed fields.
-  - Response: JSON object of the updated task.
+   - Description: Update an existing task by ID.
+   - Parameters: id - The ID of the task.
+   - Request Body: JSON object with title, description, and completed fields.
+   - Response: JSON object of the updated task.
   
 5. DELETE /tasks:id
-  - Description: Delete a task by ID.
-  - Parameters: id - The ID of the task.
-  - Response: JSON object of the deleted task.
+   - Description: Delete a task by ID.
+   - Parameters: id - The ID of the task.
+   - Response: JSON object of the deleted task.
 
 All the API endpoints are evaluated using postman software before using it in frontend.
