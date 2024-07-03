@@ -87,5 +87,5 @@ To run the app, follow these steps:
 
 All the API endpoints are evaluated using postman software before using it in frontend.
 
-# Deployment
+## Deployment
   - Vercel: https://task-manager-embj.vercel.app/
