@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a web application designed to help users manage a list of tasks. It features a front-end interface for user interaction and a back-end server to handle data storage and retrieval. Users can add, edit, delete, and mark tasks as completed or not completed. The application is built with a modern front-end framework and a RESTful API on the back-end, ensuring a responsive and user-friendly experience on both desktop and mobile devices.
+This project is a web application designed to help users manage a list of tasks. It features a front-end interface for user interaction and a back-end server to handle data storage and retrieval. Users can add, edit, delete, and mark tasks as completed or not completed. The application is built with a modern frontend framework and a RESTful API on the backend, ensuring a responsive and user-friendly experience on both desktop and mobile devices.
 
 ### Features
 
@@ -14,8 +14,8 @@ This project is a web application designed to help users manage a list of tasks.
 - Fully responsive design for desktop and mobile
 
 ### Technologies Used
-- Front-End: React
-- Back-End: Node.js with Express 
+- Frontend: React
+- Backend: Node.js with Express 
 - Database: PostgreSQL
 - CSS: Bootstrap
 
@@ -40,8 +40,8 @@ To run the app, follow these steps:
         DB_PORT=5432```
 
    - Create a database using the followiong commands:
-   - ```CREATE DATABASE task_manager```
-   - ```CREATE TABLE tasks ( id SERIAL PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, status BOOLEAN NOT NULL DEFAULT false);```
+     - ```CREATE DATABASE task_manager```
+     - ```CREATE TABLE tasks ( id SERIAL PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT NOT NULL, status BOOLEAN NOT NULL DEFAULT false);```
 3. Both the "frontend" and "backend" sides should be run in the terminal to make the web application work.
 4. To run the "frontend" side, in the terminal, run these: 
    - ```cd frontend```
