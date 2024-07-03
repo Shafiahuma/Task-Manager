@@ -86,3 +86,6 @@ To run the app, follow these steps:
    - Response: JSON object of the deleted task.
 
 All the API endpoints are evaluated using postman software before using it in frontend.
+
+# Deployment
+  - Vercel: https://task-manager-embj.vercel.app/
