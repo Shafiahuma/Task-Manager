@@ -20,9 +20,9 @@ function App() {
     fetchTasks();
   }, []);
 
-  const fetchTasks = async () => {
-    const response = await axios.get('http://localhost:3001/tasks');
-    setTasks(response.data);
+  const fetchTasks = async () => { //Defines an asynchronous function to fetch tasks from the backend.
+    const response = await axios.get('http://localhost:3001/tasks'); //Makes a GET request to fetch tasks.
+    setTasks(response.data); //Updates the tasks state with the fetched data.
   };
 
   const handleSubmit = async (e) => {
